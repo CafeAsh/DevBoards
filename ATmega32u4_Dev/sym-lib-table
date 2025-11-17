@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ABM8-16.000MHZ-10-1-U-T")(type "KiCad")(uri "${KIPRJMOD}/Symbols/ABM8-16.000MHZ-10-1-U-T.kicad_sym")(options "")(descr ""))
+  (lib (name "ABM8G-12.000MHZ-4Y-T3")(type "KiCad")(uri "${KIPRJMOD}/Symbols/ABM8G-12.000MHZ-4Y-T3.kicad_sym")(options "")(descr ""))
+  (lib (name "LI0603G121R-10")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LI0603G121R-10.kicad_sym")(options "")(descr ""))
+  (lib (name "NRF52840-QIAA-R")(type "KiCad")(uri "${KIPRJMOD}/Symbols/NRF52840-QIAA-R.kicad_sym")(options "")(descr ""))
+  (lib (name "SD0603S040S0R2")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SD0603S040S0R2.kicad_sym")(options "")(descr ""))
+  (lib (name "SK6812-E")(type "KiCad")(uri "${KIPRJMOD}/Symbols/SK6812-E.kicad_sym")(options "")(descr ""))
+  (lib (name "UJC-H-G-SMT-2-P6-TR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/UJC-H-G-SMT-2-P6-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/Symbols/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+)
