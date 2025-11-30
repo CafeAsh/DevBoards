@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ABM8G-12.000MHZ-4Y-T3")(type "KiCad")(uri "${KIPRJMOD}/Symbols/ABM8G-12.000MHZ-4Y-T3.kicad_sym")(options "")(descr ""))
+  (lib (name "LD1117S33TR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LD1117S33TR.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/Symbols/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "W25Q128JVSIQ")(type "KiCad")(uri "${KIPRJMOD}/Symbols/W25Q128JVSIQ.kicad_sym")(options "")(descr ""))
+)
