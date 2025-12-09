@@ -7268,7 +7268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+		(property "Footprint" "CustomFootPrint:Generic SW 3x4mm"
 			(at 199.39 48.26 0)
 			(effects
 				(font
@@ -9076,7 +9076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PTVS5V0Z1USK"
+		(property "Value" "PTVS5V0Z1USKYL"
 			(at 113.03 38.0999 90)
 			(effects
 				(font
@@ -9682,7 +9682,7 @@
 				)
 			)
 		)
-		(property "Value" "HI0603N300R-10"
+		(property "Value" "HI0805Q310R-10"
 			(at 97.7519 26.67 90)
 			(effects
 				(font
@@ -9817,7 +9817,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "0805L050WR"
 			(at 81.28 26.67 90)
 			(effects
 				(font
