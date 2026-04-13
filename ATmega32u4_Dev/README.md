@@ -1,5 +1,7 @@
 # ATmega32U4 Development Board
 
+![Board](Images/PhysicalBoard.jpg)
+
 A custom development board based on the **ATmega32U4** microcontroller, designed for USB-enabled embedded projects, rapid prototyping, and firmware experimentation. This is a trial project to become familair with circuit and PCB design as well as serve as a base for future project prototyping.
 
 ## Overview
@@ -44,4 +46,4 @@ This makes it ideal for:
 
 *Pinout has some to be desired. Future works will better address pin layout*
 
-![](Images\PinOut.png)
+![Pinout](Images/PinOut.png)
