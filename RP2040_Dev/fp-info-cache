@@ -1,4 +1,4 @@
-26289259655215107
+26292794606541112
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55425,6 +55425,13 @@ connector Wuerth WR-WTB vertical
 0
 10
 10
+Connectors
+1x18 Header
+
+
+0
+18
+18
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf
@@ -60094,6 +60101,13 @@ emi filter
 0
 5
 5
+Footprints
+1x18 Header
+
+
+0
+18
+18
 Footprints
 FB_LI0603G121R-10
 
