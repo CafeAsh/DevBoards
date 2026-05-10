@@ -5499,6 +5499,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 144.78) (xy 138.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b43f94-775c-4bb4-83a2-4e84363b1ff6")
+	)
+	(wire
+		(pts
 			(xy 99.06 148.59) (xy 114.3 148.59)
 		)
 		(stroke
@@ -5579,6 +5589,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dcf46bf-8a4b-47f2-960b-de8b626bb816")
+	)
+	(wire
+		(pts
 			(xy 207.01 76.2) (xy 214.63 76.2)
 		)
 		(stroke
@@ -5636,16 +5656,6 @@
 			(type default)
 		)
 		(uuid "1998b578-68e5-4389-b3ad-ef284317d147")
-	)
-	(wire
-		(pts
-			(xy 137.16 92.71) (xy 137.16 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c0cec9a-8719-4712-951e-63e147824365")
 	)
 	(wire
 		(pts
@@ -5886,6 +5896,16 @@
 			(type default)
 		)
 		(uuid "331b8529-a7ae-4aac-8971-75cf94fd8a92")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 134.62 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366765de-4e46-453e-ba93-6dab183dd846")
 	)
 	(wire
 		(pts
@@ -6269,6 +6289,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 86.36) (xy 140.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c05e9b1-3b01-4d2c-b0c0-85ee6d8b4512")
+	)
+	(wire
+		(pts
 			(xy 85.09 27.94) (xy 92.71 27.94)
 		)
 		(stroke
@@ -6519,7 +6549,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 138.43) (xy 138.43 140.97)
+			(xy 138.43 138.43) (xy 138.43 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6716,6 +6746,16 @@
 			(type default)
 		)
 		(uuid "998f44a7-3439-49de-98cf-14239847d426")
+	)
+	(wire
+		(pts
+			(xy 135.89 88.9) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a031ac2-125f-4438-8091-a80604cfade5")
 	)
 	(wire
 		(pts
@@ -7099,16 +7139,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 95.25) (xy 144.78 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d240ca62-1b99-4b23-b3e3-3ad785e676c1")
-	)
-	(wire
-		(pts
 			(xy 140.97 123.19) (xy 144.78 123.19)
 		)
 		(stroke
@@ -7186,6 +7216,16 @@
 			(type default)
 		)
 		(uuid "de6dd80d-2ff6-47fb-ac4c-ea3cbe301551")
+	)
+	(wire
+		(pts
+			(xy 140.97 86.36) (xy 140.97 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def0e45c-3073-41fd-9767-138aea87c7ca")
 	)
 	(wire
 		(pts
@@ -7367,6 +7407,16 @@
 		)
 		(uuid "fe12e271-1109-4960-9226-830860424438")
 	)
+	(label "GPIO18"
+		(at 140.97 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00d582f4-67b3-463f-aae6-649d18171712")
+	)
 	(label "QSPI_SDO"
 		(at 83.82 167.64 180)
 		(effects
@@ -7387,6 +7437,16 @@
 		)
 		(uuid "05a6318d-b9d6-4c3c-bbd6-1f96946d9c23")
 	)
+	(label "GPIO2"
+		(at 167.64 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "121c7c17-13f3-4671-b8cc-65cba6e157e7")
+	)
 	(label "QSPI_SS"
 		(at 83.82 162.56 180)
 		(effects
@@ -7396,56 +7456,6 @@
 			(justify right bottom)
 		)
 		(uuid "15ffd7c3-ebc0-4ecf-a880-abffed64531c")
-	)
-	(label "GPIO6"
-		(at 140.97 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "193d2f4a-f9b0-49b2-9c50-e99902fc3a96")
-	)
-	(label "GPIO22"
-		(at 167.64 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1fc0b07a-041d-4845-b2f4-8251a28f87fe")
-	)
-	(label "GPIO17"
-		(at 167.64 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "273193bc-23b8-4d1d-b5e2-603c79093022")
-	)
-	(label "GPIO7"
-		(at 140.97 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b002904-9cba-4dd8-b120-8a9e579a9923")
-	)
-	(label "GPIO3"
-		(at 140.97 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2dbaecc1-d354-4d20-8f74-ceea565c8017")
 	)
 	(label "Xout"
 		(at 90.17 92.71 180)
@@ -7467,6 +7477,16 @@
 		)
 		(uuid "2edd532e-6b90-42b4-b19a-0dc579cf899d")
 	)
+	(label "GPIO11"
+		(at 167.64 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f1f451d-2990-4ca7-b21e-85989bd9f7ca")
+	)
 	(label "QSPI_SD1"
 		(at 207.01 71.12 180)
 		(effects
@@ -7477,25 +7497,35 @@
 		)
 		(uuid "32bac25b-b03d-48af-a7f0-ec32269f932d")
 	)
-	(label "GPIO0"
-		(at 140.97 97.79 180)
+	(label "GPIO25"
+		(at 140.97 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "33e3d937-2e46-4571-b92f-b8a06138bc27")
+		(uuid "381e63d4-bf15-470e-9a00-8e7d87ef4757")
 	)
-	(label "GPIO4"
-		(at 140.97 107.95 180)
+	(label "GPIO5"
+		(at 167.64 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "3528dd72-c7a0-4259-88b6-ced65a5ca8cc")
+		(uuid "3890100f-ad9c-468c-b74b-87090f444359")
+	)
+	(label "GPIO8"
+		(at 167.64 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39557a3a-deba-43cc-9fa2-e38f77e7ade1")
 	)
 	(label "Xin"
 		(at 208.28 91.44 180)
@@ -7507,25 +7537,15 @@
 		)
 		(uuid "3ae21b84-6e43-4335-826d-5c119c35dc61")
 	)
-	(label "GPIO2"
-		(at 140.97 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3b166623-71ad-4822-bef2-7c45198545e5")
-	)
-	(label "GPIO18"
-		(at 167.64 102.87 0)
+	(label "GPIO12"
+		(at 167.64 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3d506905-7cca-4686-aba2-3a7b704b152e")
+		(uuid "3d21d751-3879-4659-9cd7-d07808e057f0")
 	)
 	(label "QSPI_SD3"
 		(at 83.82 175.26 180)
@@ -7537,25 +7557,45 @@
 		)
 		(uuid "42071a5e-4ed1-4d06-abdf-f93d86591d1d")
 	)
-	(label "GPIO11"
-		(at 140.97 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "45b2d958-f964-48da-8c75-b2126601c541")
-	)
-	(label "GPIO28"
-		(at 167.64 128.27 0)
+	(label "GPIO9"
+		(at 167.64 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4fa3d1a9-3122-41b3-879a-bdb96cc20a7f")
+		(uuid "454aaf79-5fe4-4fe6-96aa-15a995185ff9")
+	)
+	(label "GPIO4"
+		(at 167.64 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "477762e9-7aa0-4d62-b3f2-cb8a79cb1d52")
+	)
+	(label "GPIO20"
+		(at 140.97 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "487e5576-bd42-42da-9ed6-820ef559a703")
+	)
+	(label "GPIO17"
+		(at 140.97 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51a5e34a-a20f-4801-883c-ab63e98263f9")
 	)
 	(label "GPIO13"
 		(at 158.75 160.02 90)
@@ -7567,25 +7607,25 @@
 		)
 		(uuid "56342252-e14f-4396-a38d-ba122a3246b7")
 	)
-	(label "RUN"
-		(at 140.97 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5a2dd09a-d467-48d4-86f9-e13a875377b6")
-	)
-	(label "GPIO21"
-		(at 167.64 110.49 0)
+	(label "GPIO0"
+		(at 167.64 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5af105a0-ba7b-4922-81f3-005347f026f1")
+		(uuid "59db35f0-7666-461f-a4d8-75104147558f")
+	)
+	(label "SWCLK"
+		(at 140.97 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a257ba8-ad5f-433a-b5b8-a7559c068b3d")
 	)
 	(label "QSPI_SD3"
 		(at 207.01 76.2 180)
@@ -7607,35 +7647,25 @@
 		)
 		(uuid "5b4f4cda-0b5b-47b9-8435-7d9f24b8b8da")
 	)
-	(label "GPIO12"
-		(at 140.97 128.27 180)
+	(label "GPIO22"
+		(at 140.97 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "65714bf1-07d1-445a-8973-dad922eedbd4")
+		(uuid "60052be4-5c98-4c86-b0d1-9aa18304141a")
 	)
-	(label "GPIO26"
-		(at 167.64 123.19 0)
+	(label "GPIO21"
+		(at 140.97 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "6e8a8149-cc73-471d-96b5-7963f22d77e2")
-	)
-	(label "GPIO16"
-		(at 167.64 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70143e98-0acf-4446-acc3-736476dbb190")
+		(uuid "6e07f96e-5694-4ddc-876b-98f8d717f9ca")
 	)
 	(label "Xin"
 		(at 58.42 92.71 180)
@@ -7647,15 +7677,15 @@
 		)
 		(uuid "748978cd-7784-434a-a617-d70c29c68980")
 	)
-	(label "GPIO10"
-		(at 140.97 123.19 180)
+	(label "GPIO16"
+		(at 167.64 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "764c2d14-98b7-495c-8802-44f9583f97a7")
+		(uuid "773e06ed-c7c9-49ac-99b8-79416f1652e4")
 	)
 	(label "Xout"
 		(at 208.28 101.6 180)
@@ -7667,15 +7697,15 @@
 		)
 		(uuid "77951436-3deb-4296-87a8-82b2db22f563")
 	)
-	(label "GPIO20"
-		(at 167.64 107.95 0)
+	(label "GPIO14"
+		(at 167.64 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7af0665f-1fbb-426a-99ef-bbda9627b1f4")
+		(uuid "7fdac535-dee9-4d2c-8217-40b624846f75")
 	)
 	(label "D-"
 		(at 204.47 55.88 180)
@@ -7697,25 +7727,25 @@
 		)
 		(uuid "85e151b4-4fb5-471e-9378-9435be5a7640")
 	)
-	(label "GPIO29"
-		(at 167.64 130.81 0)
+	(label "GPIO3"
+		(at 167.64 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "89be96b3-b0ca-4eb4-a4e1-8c85360a58a6")
+		(uuid "86f562a2-d261-4cf8-90af-2197b56c63da")
 	)
-	(label "SWD"
-		(at 167.64 135.89 0)
+	(label "GPIO27"
+		(at 140.97 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "8ae78ab6-6c49-4711-8f40-08aea08ec626")
+		(uuid "887511f2-a8bc-4989-bccd-be37e51cde7a")
 	)
 	(label "QSPI_SCLK"
 		(at 83.82 165.1 180)
@@ -7726,6 +7756,16 @@
 			(justify right bottom)
 		)
 		(uuid "8cf36ca0-ac8d-4ba8-8fab-d99e1f192fca")
+	)
+	(label "GPIO10"
+		(at 167.64 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d2ccae7-6a28-4c21-9c61-9012118e4ec4")
 	)
 	(label "D-"
 		(at 96.52 54.61 0)
@@ -7747,7 +7787,17 @@
 		)
 		(uuid "92e4965f-13d8-4724-94a1-814e9924879b")
 	)
-	(label "GPIO1"
+	(label "GPIO29"
+		(at 140.97 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d9a8f46-e96d-4fb1-97e8-0001374a5c00")
+	)
+	(label "SWD"
 		(at 140.97 100.33 180)
 		(effects
 			(font
@@ -7755,7 +7805,17 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "95354b29-6bcc-46d4-a3b6-0ff06cf1f038")
+		(uuid "a1404a5e-d42f-4699-8fa2-8f25cadaeefa")
+	)
+	(label "GPIO1"
+		(at 167.64 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1658fa7-6872-4ed9-b0bf-d6e7a0d7ba3d")
 	)
 	(label "GPIO2"
 		(at 265.43 50.8 0)
@@ -8057,27 +8117,17 @@
 		)
 		(uuid "ae5a2632-dd45-4193-981d-822add7f2795")
 	)
-	(label "SWCLK"
-		(at 167.64 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aef6d52c-59c7-43ef-a086-d309d9d35161")
-	)
-	(label "GPIO8"
-		(at 140.97 118.11 180)
+	(label "GPIO19"
+		(at 140.97 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b4d59ef5-6083-4098-bb10-a735c6e6418c")
+		(uuid "b060bc23-ed64-413f-b112-20e2cb3c9605")
 	)
-	(label "GPIO25"
+	(label "GPIO6"
 		(at 167.64 120.65 0)
 		(effects
 			(font
@@ -8085,27 +8135,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "b4f75521-7881-484a-9578-df601142f7fc")
-	)
-	(label "GPIO14"
-		(at 140.97 133.35 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b840acc4-e3f2-4672-b7e9-34c1a8e59250")
-	)
-	(label "GPIO19"
-		(at 167.64 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4311387-2c19-48a1-b7fb-62469c6ab169")
+		(uuid "b7a127dd-0541-4b4c-8acf-6980306cd35f")
 	)
 	(label "QSPI_SS"
 		(at 207.01 63.5 180)
@@ -8127,17 +8157,17 @@
 		)
 		(uuid "c58b7eb7-a8fd-4a40-857a-8e34a102b54d")
 	)
-	(label "GPIO27"
-		(at 167.64 125.73 0)
+	(label "RUN"
+		(at 140.97 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "d1144870-899d-4176-b864-6d33e22b90de")
+		(uuid "c7a3e9f0-590a-4ca7-ba6f-190e9b04dbc4")
 	)
-	(label "GPIO9"
+	(label "GPIO23"
 		(at 140.97 120.65 180)
 		(effects
 			(font
@@ -8145,17 +8175,37 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "dc54af9b-f243-4535-b69a-bba85ffe585e")
+		(uuid "d02a69de-9da4-42eb-9389-ef847f526746")
 	)
-	(label "GPIO23"
-		(at 167.64 115.57 0)
+	(label "GPIO24"
+		(at 140.97 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d77f3a26-4508-4672-a074-4bfed995a6bb")
+	)
+	(label "GPIO15"
+		(at 167.64 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "de3b91a9-27ce-4c40-82d8-1149d39fb23a")
+		(uuid "e429d44b-15c4-477f-b8db-927633aa00d8")
+	)
+	(label "GPIO26"
+		(at 140.97 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4739801-08d2-4a13-b078-8aa8b9f5109b")
 	)
 	(label "RUN"
 		(at 208.28 45.72 0)
@@ -8197,27 +8247,17 @@
 		)
 		(uuid "e6192fda-faeb-4998-8e77-9aafb5423377")
 	)
-	(label "GPIO5"
-		(at 140.97 110.49 180)
+	(label "GPIO28"
+		(at 140.97 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e7c85932-3cd4-4043-be6e-9ad25508efa8")
+		(uuid "f3d3c0a7-c94b-4784-96b7-486c86d32dac")
 	)
-	(label "GPIO15"
-		(at 140.97 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fbfd73a0-a48b-4bc4-8668-23628c2fab53")
-	)
-	(label "GPIO24"
+	(label "GPIO7"
 		(at 167.64 118.11 0)
 		(effects
 			(font
@@ -8225,7 +8265,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fc9946a0-465b-4e63-b486-c854bcb53d89")
+		(uuid "fcf9696f-9400-4442-8754-5e6fbfa7e4fc")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8288,6 +8328,72 @@
 			(project "RP2040_Dev"
 				(path "/59019ba2-5ef7-4631-99cf-04fb9aa8a151"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cc9c330-ace6-4bce-8355-3b650ec921f5")
+		(property "Reference" "#PWR035"
+			(at 135.89 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32c8467e-2f7a-44fd-84b4-4db9720bdab7")
+		)
+		(instances
+			(project "RP2040_Dev"
+				(path "/59019ba2-5ef7-4631-99cf-04fb9aa8a151"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8399,7 +8505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 146.05 63.5 0)
 			(effects
 				(font
@@ -8603,7 +8709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 59.3852 121.92 0)
 			(effects
 				(font
@@ -8896,7 +9002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 160.02 0)
 			(effects
 				(font
@@ -9031,7 +9137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.2652 40.64 0)
 			(effects
 				(font
@@ -9467,7 +9573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 270.51 33.02 0)
 			(effects
 				(font
@@ -9603,7 +9709,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 160.528 167.64 90)
 			(effects
 				(font
@@ -9874,7 +9980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.6 63.5 0)
 			(effects
 				(font
@@ -10289,7 +10395,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 149.098 167.64 90)
 			(effects
 				(font
@@ -10425,7 +10531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 110.49 63.5 0)
 			(effects
 				(font
@@ -10627,7 +10733,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.518 154.94 90)
 			(effects
 				(font
@@ -11131,7 +11237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 232.41 30.48 0)
 			(effects
 				(font
@@ -11267,7 +11373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 224.79 30.48 0)
 			(effects
 				(font
@@ -11304,138 +11410,6 @@
 			(project "RP2040_Dev"
 				(path "/59019ba2-5ef7-4631-99cf-04fb9aa8a151"
 					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 137.16 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98d53223-d847-4e15-a958-60914bc6b4f9")
-		(property "Reference" "#PWR029"
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 137.16 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 137.16 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43e05383-724f-4dd3-a81a-f2cd27f74874")
-		)
-		(instances
-			(project "RP2040_Dev"
-				(path "/59019ba2-5ef7-4631-99cf-04fb9aa8a151"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3c97344-6e83-4556-9473-fb66f1b2d6c6")
-		(property "Reference" "#PWR027"
-			(at 138.43 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23bbec23-428f-4a1f-9763-41b673456c14")
-		)
-		(instances
-			(project "RP2040_Dev"
-				(path "/59019ba2-5ef7-4631-99cf-04fb9aa8a151"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11848,7 +11822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 217.17 30.48 0)
 			(effects
 				(font
@@ -11885,6 +11859,72 @@
 			(project "RP2040_Dev"
 				(path "/59019ba2-5ef7-4631-99cf-04fb9aa8a151"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 134.62 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1d3bf30-09d3-4792-83a8-5a1f55f26e1b")
+		(property "Reference" "#PWR036"
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b91b8f1d-5d06-41cb-ad42-b6fe55bf1a13")
+		)
+		(instances
+			(project "RP2040_Dev"
+				(path "/59019ba2-5ef7-4631-99cf-04fb9aa8a151"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11983,7 +12023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 195.2752 124.46 0)
 			(effects
 				(font
@@ -12236,7 +12276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 128.27 63.5 0)
 			(effects
 				(font
@@ -12372,7 +12412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.16 63.5 0)
 			(effects
 				(font
@@ -12901,7 +12941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.38 63.5 0)
 			(effects
 				(font
@@ -13035,7 +13075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.58 164.338 90)
 			(effects
 				(font
@@ -13105,7 +13145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 143.2052 40.64 0)
 			(effects
 				(font
@@ -13857,7 +13897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 91.1352 121.92 0)
 			(effects
 				(font

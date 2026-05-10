@@ -47,3 +47,6 @@ This makes it ideal for:
 *Pinout has some to be desired. Future works will better address pin layout*
 
 ![Pinout](Images/PinOut.png)
+
+* PD5/TXLED can be used at GPIO for digital
+
