@@ -1,0 +1,5 @@
+*.kicad_prl
+fp-info-cache
+fp-lib-table
+sym-lib-table
+ATmega32u4_Dev-backups/

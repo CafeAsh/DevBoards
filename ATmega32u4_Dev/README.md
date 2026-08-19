@@ -2,13 +2,13 @@
 
 ![Board](Images/PhysicalBoard.jpg)
 
-A custom development board based on the **ATmega32U4** microcontroller, designed for USB-enabled embedded projects, rapid prototyping, and firmware experimentation. This is a trial project to become familair with circuit and PCB design as well as serve as a base for future project prototyping.
+Development board based on the **ATmega32U4** microcontroller, designed for USB-enabled embedded projects, rapid prototyping, and firmware experimentation.
 
 ## Overview
 
 This project provides a hardware platform built around the ATmega32U4, a microcontroller with native USB support.
 
-This makes it ideal for:
+Ideal use cases include:
 
 * USB HID devices (keyboards, mice, gamepads)
 * Serial communication over USB (CDC)
@@ -36,7 +36,6 @@ This makes it ideal for:
 * **EEPROM:** 1 KB
 * **Clock Speed:**  16 MHz
 * **Interfaces:**
-
   * USB 2.0 Full Speed
   * UART
   * SPI
@@ -44,9 +43,7 @@ This makes it ideal for:
 
 ## Pinout
 
-*Pinout has some to be desired. Future works will better address pin layout*
+*Pinout leaves some to be desired. Future re-works will better address pin layout*
 
 ![Pinout](Images/PinOut.png)
-
-* PD5/TXLED can be used at GPIO for digital
 

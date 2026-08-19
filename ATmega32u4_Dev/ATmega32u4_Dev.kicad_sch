@@ -6,8 +6,6 @@
 	(paper "A4")
 	(title_block
 		(title "ATmega32U4")
-		(company "Practice")
-		(comment 1 "Dev board PCB design")
 	)
 	(lib_symbols
 		(symbol "ABM8-16.000MHZ-10-1-U-T:ABM8-16.000MHZ-10-1-U-T"

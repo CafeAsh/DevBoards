@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MIC2288YD5-TR")(type "KiCad")(uri "${KIPRJMOD}/Symbols/MIC2288YD5-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "LM5122MH_NOPB")(type "KiCad")(uri "${KIPRJMOD}/Symbols/LM5122MH_NOPB.kicad_sym")(options "")(descr ""))
+)
